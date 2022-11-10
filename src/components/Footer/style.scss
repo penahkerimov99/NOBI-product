@@ -1,0 +1,22 @@
+.footer-con{
+    margin-top: 5rem;
+    .footer-row{
+        margin-top: 3rem;
+        justify-content: center;
+        row-gap: 2rem;
+        h1{
+            text-align: center;
+        }
+        h3{
+            text-align: center;
+        }
+        button{
+            width: 8rem;
+            height: 3rem;
+            border: none;
+            border-radius: 5px;
+            background-color: #00BBA4;
+    
+        }
+    }
+}

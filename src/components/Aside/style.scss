@@ -1,0 +1,49 @@
+.asidecontainer {
+    display: flex;
+    width: 95%;
+    justify-content: center;
+    padding-left: 2rem;
+    margin-top: 2rem;
+
+    .headercol {
+        display: flex;
+        flex-direction: column;
+        row-gap: 2rem;
+
+        .header-1 {
+            font-size: 3rem;
+        }
+
+        .bookbtn {
+            background-color: #00BBA4 !important;
+        }
+    }
+
+    .img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        width: 20%;
+        height: 60vh;
+        row-gap: 2rem;
+        background-color: #F2F2F2;
+        border-radius: 5px;
+        .asideimg {
+            width: 90%;
+            height: 50vh;
+            background-image: url('../../../public/assets/Rectangle 36 (1).png');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+
+        }
+
+        .asidebtn{
+            background-color: #E0E0E0 !important;
+            color: #000;
+            border: none;
+        }
+    }
+}

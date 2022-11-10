@@ -1,0 +1,49 @@
+.filter-container{
+    width: 95%;
+    margin-top: 3rem;
+    ul{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        column-gap: 4rem;
+        list-style: none;
+        .link{
+            cursor: pointer;
+            color: #000;
+            text-decoration: none;
+            &:hover{
+                color: #000;
+            }
+        }
+    }
+    .jobcart-container{
+        justify-content: center;
+        margin-top: 1rem;
+        .jobcart-row{
+            justify-content: center;
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            margin-top: 2rem;
+            column-gap: 2rem;
+        }
+    }
+}
+
+.isactive{
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 0.3rem;
+    &:hover{
+        color: #000;
+    }
+}
+
+.non-active{
+    background-color: #fff;
+    color: #000;
+    text-decoration: none;
+    &:hover{
+        color: #000;
+    }
+}

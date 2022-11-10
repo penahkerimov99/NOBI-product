@@ -1,0 +1,46 @@
+
+.fb {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 1.5rem;
+    
+    .username {
+        width: 100%;
+    }
+
+    .lastname {
+        @extend .username;
+    }
+
+    .email {
+        @extend .username;
+
+        input {
+            width: 100%;
+            height: 3rem;
+            border: 1px solid grey;
+        }
+    }
+
+    .password {
+        @extend .username;
+    }
+
+    .confirm-password {
+        @extend .username;
+    }
+
+    .footer {
+        width: 100%;
+
+        button {
+            width: 100%;
+            height: 3rem;
+            background-color: #2F80ED;
+            border-radius: 5px;
+        }
+    }
+}
